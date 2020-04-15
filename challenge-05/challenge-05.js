@@ -70,24 +70,24 @@ console.log(book());
 /*
 Ainda com a função acima, imprima a quantidade de páginas de um livro qualquer,
 usando a frase:
-"O livro [NOME_DO_LIVRO] tem [X] páginas!"
+'O livro [NOME_DO_LIVRO] tem [X] páginas!'
 */
-const bookName = "Introdução ao HTML5";
+const bookName = 'Introdução ao HTML5';
 console.log('O livro ' + bookName + 'tem' + book(bookName).quantidadePaginas + 'páginas!')
 
 /*
 Ainda com a função acima, imprima o nome do autor de um livro qualquer, usando
 a frase:
-'O autor do livro [NOME_DO_LIVRO] é [AUTOR]."
+'O autor do livro [NOME_DO_LIVRO] é [AUTOR].'
 */
-const bookName = "Introdução ao HTML5";
+const bookName = 'Introdução ao HTML5';
 console.log('O autor do livro' + bookName + 'é' + book(bookName).autor + '.')
 
 /*
 Ainda com a função acima, imprima o nome da editora de um livro qualquer, usando
 a frase:
-"O livro [NOME_DO_LIVRO] foi publicado pela editora [NOME_DA_EDITORA]."
+'O livro [NOME_DO_LIVRO] foi publicado pela editora [NOME_DA_EDITORA].'
 */
 
-const bookName = "Introdução ao HTML5";
+const bookName = 'Introdução ao HTML5';
 console.log('O autor do livro' + bookName + 'foi publicado pela editora ' + book(bookName).editora + '.')
